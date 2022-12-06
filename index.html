@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        html {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 800px;
+            margin: 0 auto;
+            font-size: 10px;
+        }
+
+        header {
+            background-color: deepskyblue;
+            text-align: center;
+            display: flex;
+        }
+
+        header h1 {
+            color: aliceblue;
+            text-align: center
+        }
+
+        #headerlist {
+            margin-top: 30px;
+            display: flex 
+        }
+
+        header li {
+            list-style: none;
+            margin-right: 30px;
+            text-align: center;
+
+        }
+        
+        #contentarea{
+            flex:3;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        article {
+            flex:2;
+            border-left-style: dotted;
+            border-right-style: dotted;
+            border-width: thick;
+            border-color: lightgray;
+        }
+
+        aside {
+            border-right-style: dotted;
+            border-width: thick;
+            border-color: lightgray;
+        }
+
+        footer {
+            background-color: deepskyblue;
+        }
+
+        #footer {}
+
+        header ul li a {
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        header ul li a:hover {
+            color: black;
+            background-color: crimson;
+        }
+
+        header ul li a:link,header ul li a:visited {
+            color: white;
+        }
+
+    </style>
+    <title>NBA</title>
+    <div id="header">
+        <header>
+            <img src="LOGO.png" width="100" height="70">
+            <h1>National Basketball Association</h1>
+            <nav>
+            <ul id="headerlist" style="font-size: 30px">
+                <li><a href="index.html">Los Angeles Lakers</a></li>
+                <li><a href="mavericks.html">Dallas Mavericks</a></li>
+                <li><a href="celtics.html">Boston Celtics</a></li>
+            </ul>
+            </nav>
+        </header>
+    </div>
+</head>
+
+<body>
+    <div id="contentarea">
+        <article>
+            <h3>球隊介紹</h3><br>
+            <a style="font-size: 15px">洛杉磯湖人（英語：Los Angeles Lakers，縮寫：LAL）是一支位於美國加利福尼亞州洛杉磯的職業籃球隊，隸屬於NBA西區太平洋組， 主場為Crtpto.com
+            Arena。球隊前身為「明尼亞波利斯湖人」（Minneapolis Lakers）。至今共奪得17次總冠軍，與東區球隊波士頓 塞爾提克並列NBA第一。
+            </a><br><br>
+            <img src="lakers.jpg" width="150" height="150"><br><br>
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/hY2hhtd82os" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </article>
+
+        <aside>
+            
+            <section>
+                <ul id="asidelist" style="font-size: 30px">Famous Player
+                    <li><a href="">Kobe Bryant</a></li>
+                    <li><a href="">Lebron james</a></li>
+                </ul>
+            </section>
+            <section>
+                    <div style="justify-content: center;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13224.133105427805!2d-118.2672541!3d34.0430175!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1ff47c3ceb7bb2d5!2sCrypto.com%20Arena!5e0!3m2!1szh-TW!2stw!4v1669088075716!5m2!1szh-TW!2stw"
+                            width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </section>
+        </aside>
+    </div>
+    <div id="footer">
+        <footer>
+            National Basketball Association
+        </footer>
+    </div>
+</body>
+
+</html>
